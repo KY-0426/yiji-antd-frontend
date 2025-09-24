@@ -6,11 +6,11 @@ FROM node:18-alpine AS builder
 # 设置工作目录
 WORKDIR /app
 
-# 复制 package.json 和 package-lock.json（如果存在）
-COPY package*.json ./
+# 复制 package.json
+COPY package.json ./
 
 # 安装依赖
-RUN npm ci --silent
+RUN npm install --silent
 
 # 复制源代码
 COPY . .
