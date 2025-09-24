@@ -23,7 +23,7 @@ RUN rm -rf node_modules
 
 # 第二阶段：生产阶段
 FROM nginx:alpine AS production
-
+###
 # 复制自定义 nginx 配置
 COPY <<EOF /etc/nginx/conf.d/default.conf
 server {
