@@ -10,13 +10,16 @@ WORKDIR /app
 COPY package*.json ./
 
 # 安装依赖
-RUN npm ci --only=production --silent
+RUN npm ci --silent
 
 # 复制源代码
 COPY . .
 
 # 构建应用
 RUN npm run build
+
+# 清理 node_modules 以减小镜像大小
+RUN rm -rf node_modules
 
 # 第二阶段：生产阶段
 FROM nginx:alpine AS production
