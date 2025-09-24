@@ -1,0 +1,84 @@
+{
+  "file": {
+    "uid": "rc-upload-1755010113457-8",
+    "lastModified": 1724061643837,
+    "lastModifiedDate": "2024-08-19T10:00:43.837Z",
+    "name": "47f4c019880711ebb6edd017c2d2eca2.jpg",
+    "size": 170957,
+    "type": "image/jpeg",
+    "percent": 0,
+    "originFileObj": {
+      "uid": "rc-upload-1755010113457-8"
+    },
+    "status": "uploading"
+  },
+  "fileList": [
+    {
+      "uid": "rc-upload-1755010113457-2",
+      "lastModified": 1754319672195,
+      "lastModifiedDate": "2025-08-04T15:01:12.195Z",
+      "name": "微信图片_2025-08-04_230106_681.jpg",
+      "size": 261641,
+      "type": "image/jpeg",
+      "percent": 100,
+      "originFileObj": {
+        "uid": "rc-upload-1755010113457-2"
+      },
+      "status": "done",
+      "response": {
+        "code": 0,
+        "data": "https://wky-1307761001.cos.ap-beijing.myqcloud.com/user_avatar/1955254087302352897/3M5ynYjL-微信图片_2025-08-04_230106_681.jpg",
+        "message": "ok"
+      }
+    },
+    {
+      "uid": "rc-upload-1755010113457-4",
+      "lastModified": 1724061679041,
+      "lastModifiedDate": "2024-08-19T10:01:19.041Z",
+      "name": "2c4ccca6883211ebb6edd017c2d2eca2.jpg",
+      "size": 397701,
+      "type": "image/jpeg",
+      "percent": 100,
+      "originFileObj": {
+        "uid": "rc-upload-1755010113457-4"
+      },
+      "status": "done",
+      "response": {
+        "code": 0,
+        "data": "https://wky-1307761001.cos.ap-beijing.myqcloud.com/user_avatar/1955254087302352897/W3WRFRzm-2c4ccca6883211ebb6edd017c2d2eca2.jpg",
+        "message": "ok"
+      }
+    },
+    {
+      "uid": "rc-upload-1755010113457-6",
+      "lastModified": 1724061679041,
+      "lastModifiedDate": "2024-08-19T10:01:19.041Z",
+      "name": "2c4ccca6883211ebb6edd017c2d2eca2.jpg",
+      "size": 397701,
+      "type": "image/jpeg",
+      "percent": 100,
+      "originFileObj": {
+        "uid": "rc-upload-1755010113457-6"
+      },
+      "status": "done",
+      "response": {
+        "code": 0,
+        "data": "https://wky-1307761001.cos.ap-beijing.myqcloud.com/user_avatar/1955254087302352897/cGajVk1V-2c4ccca6883211ebb6edd017c2d2eca2.jpg",
+        "message": "ok"
+      }
+    },
+    {
+      "uid": "rc-upload-1755010113457-8",
+      "lastModified": 1724061643837,
+      "lastModifiedDate": "2024-08-19T10:00:43.837Z",
+      "name": "47f4c019880711ebb6edd017c2d2eca2.jpg",
+      "size": 170957,
+      "type": "image/jpeg",
+      "percent": 0,
+      "originFileObj": {
+        "uid": "rc-upload-1755010113457-8"
+      },
+      "status": "uploading"
+    }
+  ]
+}
